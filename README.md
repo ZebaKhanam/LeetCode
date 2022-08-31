@@ -36,4 +36,12 @@ Approach:
 Given a roman numeral, convert it to an integer.
 https://leetcode.com/problems/roman-to-integer/
 
-Approach: 
+Approach:
+
+Day 2: 
+
+1. Problem: Longest Common Prefix
+Write a function to find the longest common prefix string amongst an array of strings.
+
+If there is no common prefix, return an empty string "".
+https://leetcode.com/problems/longest-common-prefix/
