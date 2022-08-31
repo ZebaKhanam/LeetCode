@@ -1,5 +1,15 @@
 class Solution:
+    ##### HashMaps######
     def twoSum(self, nums: List[int], target: int) -> List[int]:
+        length = len(nums)
+        prevMap = {}
+        for i,m in enumerate(nums):
+                x = target - m
+                if(x in prevMap):
+                    return [i,prevMap[x]]
+                prevMap[m] = i;
+                    
+    def sol1(self, nums: List[int], target: int) -> List[int]:
         length = len(nums)
         for m in range(length-1):
                 x = target - nums[m]
@@ -13,4 +23,4 @@ class Solution:
         for m in range(length-1):
             for n in range(m+1,length):
                 if nums[m] + nums[n] == target:
-                    return [m,n];      
+                    return [m,n];
