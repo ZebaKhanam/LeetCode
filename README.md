@@ -3,7 +3,7 @@
 I wanted to take up a challenge of coding Leetcode problems for 30 days. 
 Let us see where this journey will take me.
 
-1. Day 1: 30th August
+Day 1: 30th August
 On Day 1, I was able to solve three easy question. The language I have used is Python3.
 
 1. Problem: Two Sum
