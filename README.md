@@ -1,5 +1,5 @@
 # LeetCode
-I never thought there will be time in my life I would fall out of love for coding. Coding was my first love from my early school days. To fall in love again, I decided to start from fresh.
+
 I wanted to take up a challenge of coding Leetcode problems for 30 days. 
 Let us see where this journey will take me.
 
@@ -13,6 +13,14 @@ You can return the answer in any order.
 https://leetcode.com/problems/two-sum/
 
 Approach: Brute Force
+The most logical and basic idea is to compare the sum of all the posible combinations with target. However, the time complexity is O(n2). 
+
+1 Approach: One pass
+ Search if the difference of target with number from first iteration exists. The built in functions of python decease the run time. However, this is not the optimal solution.
+ 
+2 Approach: Hash Maps
+
+
 
 2. Problem: Palindrome Number
 Given an integer x, return true if x is palindrome integer.
