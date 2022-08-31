@@ -12,9 +12,20 @@ You may assume that each input would have exactly one solution, and you may not 
 You can return the answer in any order.
 https://leetcode.com/problems/two-sum/
 
+Approach: Brute Force
+
 2. Problem: Palindrome Number
 Given an integer x, return true if x is palindrome integer.
 An integer is a palindrome when it reads the same backward as forward.
 For example, 121 is a palindrome while 123 is not.
 Could you solve it without converting the integer to a string?
 https://leetcode.com/problems/palindrome-number/
+
+Approach:
+
+
+3. Problem Roman Numeral to Integer Problem
+Given a roman numeral, convert it to an integer.
+https://leetcode.com/problems/roman-to-integer/
+
+Approach: 
